@@ -1,0 +1,15 @@
+.terraform/
+*.tfstate
+.tfstate.
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+*.pem
+*.key
+id_rsa
+id_ed25519
+terraform-ec2
+.env
+.env.*
+*.tfvars
