@@ -33,7 +33,7 @@ Terraform's record of the resources it manages.
 Example: terraform.tfstate can record the ID of your EC2 instance.
 >>Terraform State is like Terraform's memory book.
 The state file is usually named terraform.tfstate.
-main.tf |	terraform.tfstate
+|main.tf |	terraform.tfstate |
 |---|---|
 | Contains your desired configuration|	Tracks the resources Terraform manages|
 | Written by you	| Usually maintained by Terraform |
