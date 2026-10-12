@@ -16,7 +16,8 @@ Task 2: Install Terraform
 Install Terraform using the official guide:[ Terraform installation guide](https://developer.hashicorp.com/terraform/install).
 
 <img width="1017" height="170" alt="image" src="https://github.com/user-attachments/assets/e492b956-dd3e-4ea2-845a-6138fc30b2c0" />
--------------------------
+
+--------------------------------------------------------
 
 Task 3: Six crucial Terraform terminologies
 1. Provider
@@ -42,3 +43,21 @@ Written in HCL |	Stored as JSON data
 
 A preview of the changes Terraform intends to make.
 Example: terraform plan shows whether Terraform proposes to create, update, or destroy resources.
+>> Terraform analyzes both the written configuration provided by the developer and the current state of the organization’s infrastructure.
+   It then creates an execution plan describing how it will reach the desired state from the current state.
+5.HCL — HashiCorp Configuration Language, the syntax you write Terraform in.
+>> HashiCorp Configuration Language, used to write Terraform configuration.
+Example: main.tf contains HCL blocks that describe resources.
+<block> <parameters>{
+<arrguments>}
+6. Module
+
+A reusable collection of Terraform configuration files.
+Example: You can create an EC2 module and reuse it across different environments.
+* Modules
+- Modules are reusable containers for multiple resources that are commonly used together. For example, a module might contain virtual machines, databases, network configurations and security settings all in one package. Modules are stored as collections of configuration files.
+
+- Terraform modules allow developers to create complex infrastructure without starting from scratch every time. Instead, they can use modules that already describe the infrastructure arrangements they need.
+--------------------------------
+Task 4: Create your first Terraform resource — no cloud cost
+
