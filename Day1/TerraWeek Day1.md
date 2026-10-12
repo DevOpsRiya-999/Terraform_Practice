@@ -97,3 +97,5 @@ terraform destroy   # clean up (type: yes)
 | terraform.tfstate	| ❌ Never| 
 | .terraform.lock.hcl| ✅ Yes |
 | *.tf |	✅ Yes | 
+---------------------------------
+Happy Terraforming! 🌍💻
