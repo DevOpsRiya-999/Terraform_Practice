@@ -61,3 +61,28 @@ Example: You can create an EC2 module and reuse it across different environments
 --------------------------------
 Task 4: Create your first Terraform resource — no cloud cost
 
+Run the core Terraform workflow and capture the output of each step:
+
+cd example
+terraform init      # download providers, initialize the working directory
+<img width="918" height="582" alt="image" src="https://github.com/user-attachments/assets/ed2a27c5-b46b-4c24-a960-0176c9e1da32" />
+
+terraform fmt       # format your code
+>> basically it format the hcl file e.g. main.tf file 
+
+terraform validate  # check for syntax errors
+<img width="702" height="117" alt="image" src="https://github.com/user-attachments/assets/49a5dfa6-ef06-40c3-ab67-390a1192d071" />
+
+terraform plan      # preview what will be created
+<img width="847" height="810" alt="image" src="https://github.com/user-attachments/assets/93131c68-a339-45bb-8d69-77f98d808870" />
+
+terraform apply     # create the resources (type: yes)
+
+<img width="925" height="860" alt="image" src="https://github.com/user-attachments/assets/dbfc7145-772b-499f-a95f-ef649ef1c64e" />
+
+cat greeting.txt    # see the file Terraform generated
+<img width="923" height="231" alt="image" src="https://github.com/user-attachments/assets/15c55682-14e3-4f14-9f15-132836d45406" />
+
+terraform destroy   # clean up (type: yes)
+
+<img width="873" height="847" alt="image" src="https://github.com/user-attachments/assets/e5cb7c26-85d5-41b3-a941-6d5b34b7c7d8" />
