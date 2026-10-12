@@ -90,8 +90,9 @@ terraform destroy   # clean up (type: yes)
 
 -------------------------------------------
 📁 Files Terraform Creates
-File / folder |	Commit to Git?
-.terraform/	| ❌ No
-terraform.tfstate	| ❌ Never
-.terraform.lock.hcl| ✅ Yes
-*.tf |	✅ Yes
+ | File / folder |	Commit to Git? |
+|---|---|
+| .terraform/	| ❌ No |
+| terraform.tfstate	| ❌ Never| 
+| .terraform.lock.hcl| ✅ Yes |
+| *.tf |	✅ Yes | 
