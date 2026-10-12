@@ -17,6 +17,7 @@ Install Terraform using the official guide:[ Terraform installation guide](https
 
 <img width="1017" height="170" alt="image" src="https://github.com/user-attachments/assets/e492b956-dd3e-4ea2-845a-6138fc30b2c0" />
 -------------------------
+
 Task 3: Six crucial Terraform terminologies
 1. Provider
 A plugin that allows Terraform to communicate with a platform.
