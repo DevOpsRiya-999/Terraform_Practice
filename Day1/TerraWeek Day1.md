@@ -71,6 +71,7 @@ terraform fmt       # format your code
 >> basically it format the hcl file e.g. main.tf file 
 
 terraform validate  # check for syntax errors
+
 <img width="702" height="117" alt="image" src="https://github.com/user-attachments/assets/49a5dfa6-ef06-40c3-ab67-390a1192d071" />
 
 terraform plan      # preview what will be created
@@ -86,3 +87,11 @@ cat greeting.txt    # see the file Terraform generated
 terraform destroy   # clean up (type: yes)
 
 <img width="873" height="847" alt="image" src="https://github.com/user-attachments/assets/e5cb7c26-85d5-41b3-a941-6d5b34b7c7d8" />
+
+-------------------------------------------
+📁 Files Terraform Creates
+File / folder |	Commit to Git?
+.terraform/	| ❌ No
+terraform.tfstate	| ❌ Never
+.terraform.lock.hcl| ✅ Yes
+*.tf |	✅ Yes
