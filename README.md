@@ -14,11 +14,12 @@ Everything here is refreshed for 2026 using the latest Terraform (v1.15.x) and l
 🗓️ Challenge Dates
 11th October → 17th October 2026 (Sunday to Saturday)
 
-Day	Date	Topic
-Day 1	Sun, 11 Oct	Introduction to IaC & Terraform Basics
-Day 2	Mon, 12 Oct	HCL Deep Dive — Variables, Types & Expressions
-Day 3	Tue, 13 Oct	Providers, Resources & Your First Cloud Infra
-Day 4	Wed, 14 Oct	Terraform State & Remote Backends (Native Locking)
-Day 5	Thu, 15 Oct	Modules — Reusable, Composable Infrastructure
-Day 6	Fri, 16 Oct	Advanced Terraform + Capstone Project
-Day 7	Sat, 17 Oct	🏁 Wrap Up & Review
+| Day | Date | Topic |
+|---|---|---|
+| Day 1 | Sun, 11 Oct | Introduction to IaC & Terraform Basics |
+| Day 2 | Mon, 12 Oct | HCL Deep Dive — Variables, Types & Expressions |
+| Day 3 | Tue, 13 Oct | Providers, Resources & Your First Cloud Infra |
+| Day 4 | Wed, 14 Oct | Terraform State & Remote Backends (Native Locking) |
+| Day 5 | Thu, 15 Oct | Modules — Reusable, Composable Infrastructure |
+| Day 6 | Fri, 16 Oct | Advanced Terraform + Capstone Project |
+| Day 7 | Sat, 17 Oct | 🏁 Wrap Up & Review |
