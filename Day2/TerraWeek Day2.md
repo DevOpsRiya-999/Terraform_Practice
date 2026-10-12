@@ -52,4 +52,17 @@ Here:
 |map(string)	| Named text values	| { team = "DevOps" } |
 |set(string) |	Unique text values |	["dev", "prod"] |
 |object({...}) |	An object with named fields and specified types	|{ name = "web", port = 8080 } |
-tuple([...])	An ordered collection with specified types at each position	["web", 8080, true]
+|tuple([...])	| An ordered collection with specified types at each position|	["web", 8080, true] |
+
+-------------------------------------
+## 5. What are locals?
+A local value is a named value you calculate or reuse inside your Terraform configuration.
+For example, instead of repeatedly writing the same project name and environment, you can create a locals block.
+Remember the difference:
+- var.environment accesses an input variable.
+- local.name_prefix accesses a local value.
+Variables accept inputs; locals help you calculate and reuse values.
+output for locals: 
+<img width="1107" height="390" alt="image" src="https://github.com/user-attachments/assets/30054bed-e4af-4d59-ab37-2232c0d75ac0" />
+---------------------------
+
