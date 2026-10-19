@@ -21,7 +21,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: .
+        working-directory: ./day6-capstone
 
     steps:
       - name: Checkout repository
@@ -39,6 +39,9 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: ap-south-1
      
+      - name: Verify AWS identity
+        if: github.event_name != 'pull_request'
+        run: aws sts get-caller-identity
 
       - name: Check formatting
         run: terraform fmt -check -recursive
