@@ -33,7 +33,14 @@ jobs:
         with:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: ap-south-1
-          role-session-name: github-actions-deploy-role
+          shell: bash
+          run: |
+            if [[ "$ROLE_ARN" =~ ^arn:aws:iam::[0-9]{12}:role/.+$ ]]; then
+              echo "AWS role ARN format looks correct"
+            else
+              echo "AWS role ARN is missing or has an invalid format"
+            exit 1
+            fi
 
       - name: verify AWS identity
         run: aws sts get-caller-identity    
